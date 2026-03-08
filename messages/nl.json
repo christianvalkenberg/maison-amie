@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Home",
+    "accommodation": "Suites",
+    "activities": "Activiteiten",
+    "book": "Boek nu",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Maison Amie",
+      "subtitle": "Uw thuis in het hart van de Languedoc",
+      "tagline": "Vlak bij Revel · Zuid-Frankrijk",
+      "cta": "Ontdek uw verblijf"
+    },
+    "welcome": {
+      "title": "Een plek om van te houden",
+      "text": "Maison Amie is een prachtige landhuis nabij het pittoreske dorp Revel in Zuid-Frankrijk. Geniet van zes unieke suites, een weelderige tuin en onvergetelijke ervaringen in het hart van de Languedoc.",
+      "cta": "Bekijk onze suites"
+    },
+    "rooms": {
+      "title": "Onze suites",
+      "subtitle": "Zes unieke verblijfplaatsen, elk met eigen karakter",
+      "cta": "Alle suites bekijken"
+    },
+    "activities": {
+      "title": "Beleef meer",
+      "subtitle": "Van broodbakken tot kajakken — vul uw dagen met herinneringen",
+      "cta": "Ontdek activiteiten"
+    },
+    "location": {
+      "title": "Vlak bij Revel",
+      "text": "Geniet van de rust van het platteland, op steenworp afstand van het charmante marktdorp Revel en de Lac de Saint-Ferréol. Perfecte uitvalsbasis voor de Languedoc, de Zwarte Bergen en Carcassonne.",
+      "distance1": "5 min naar Revel",
+      "distance2": "10 min naar Lac Saint-Ferréol",
+      "distance3": "50 min naar Carcassonne"
+    },
+    "cta": {
+      "title": "Klaar voor een onvergetelijk verblijf?",
+      "subtitle": "Boek uw suite en beleef de magie van Zuid-Frankrijk",
+      "button": "Beschikbaarheid bekijken"
+    }
+  },
+  "accommodation": {
+    "title": "Onze suites",
+    "subtitle": "Zes unieke ruimtes, elk ingericht met zorg en oog voor detail",
+    "guests": "gasten",
+    "perNight": "per nacht",
+    "amenities": "Voorzieningen",
+    "book": "Reserveer deze suite",
+    "from": "Vanaf"
+  },
+  "activities": {
+    "title": "Activiteiten",
+    "subtitle": "Vul uw dagen met authentieke ervaringen rond Maison Amie",
+    "book": "Activiteit boeken",
+    "perPerson": "per persoon",
+    "duration": "Duur",
+    "minutes": "min",
+    "participants": "Max. deelnemers",
+    "selectDate": "Kies een datum",
+    "selectTime": "Kies een tijdslot",
+    "noSlots": "Geen beschikbare tijdslots op deze datum",
+    "category": {
+      "workshop": "Workshop",
+      "rental": "Verhuur",
+      "outdoor": "Avontuur"
+    },
+    "items": {
+      "garden": {
+        "name": "Moestuinworkshop",
+        "description": "Leer van onze tuinman alles over het kweken van groenten en kruiden in onze prachtige moestuin. Voor beginners en gevorderden.",
+        "category": "workshop"
+      },
+      "bike": {
+        "name": "Fietsverhuur",
+        "description": "Verken de omgeving op uw eigen tempo. Wij verhuren elektrische fietsen en gewone fietsen voor tochten door de Languedoc.",
+        "category": "rental"
+      },
+      "kayak": {
+        "name": "Kajakken",
+        "description": "Een onvergetelijke dag op het water bij de Lac de Saint-Ferréol of op de rivier. Gids inbegrepen, geen ervaring vereist.",
+        "category": "outdoor"
+      },
+      "bread": {
+        "name": "Broodbakken",
+        "description": "Bak uw eigen brood in onze traditionele oven. Van het kneden van het deeg tot een knapperig brood uit de oven.",
+        "category": "workshop"
+      },
+      "pizza": {
+        "name": "Pizza bakken",
+        "description": "Pizza bakken in onze houtgestookte steenoven. Maak uw eigen pizza van begin tot eind en geniet samen aan tafel.",
+        "category": "workshop"
+      }
+    }
+  },
+  "booking": {
+    "title": "Reserveren",
+    "subtitle": "Kies uw suite en de gewenste datums",
+    "selectRoom": "Kies een suite",
+    "allRooms": "Alle suites",
+    "selectDates": "Kies uw datums",
+    "checkIn": "Aankomst",
+    "checkOut": "Vertrek",
+    "nights": "nachten",
+    "guests": "Aantal gasten",
+    "personalDetails": "Uw gegevens",
+    "name": "Naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "message": "Bijzondere wensen of vragen",
+    "messagePlaceholder": "Heeft u speciale wensen of vragen? Laat het ons weten.",
+    "submit": "Reserveringsverzoek sturen",
+    "submitting": "Bezig met verzenden...",
+    "success": "Uw aanvraag is ontvangen! We nemen binnen 24 uur contact met u op om uw boeking te bevestigen.",
+    "error": "Er ging iets mis. Probeer het opnieuw of neem telefonisch contact op.",
+    "blocked": "Niet beschikbaar",
+    "selectRoomFirst": "Selecteer eerst een suite",
+    "totalPrice": "Totaalprijs",
+    "activityTitle": "Activiteit boeken",
+    "activitySubtitle": "Kies een datum en tijdslot voor uw activiteit",
+    "participants": "Aantal deelnemers",
+    "activitySuccess": "Uw activiteitsboeking is ontvangen! We bevestigen zo spoedig mogelijk."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Heeft u vragen? We helpen u graag.",
+    "name": "Naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer (optioneel)",
+    "subject": "Onderwerp",
+    "message": "Uw bericht",
+    "submit": "Verstuur bericht",
+    "submitting": "Versturen...",
+    "success": "Bedankt voor uw bericht! We nemen zo snel mogelijk contact op.",
+    "error": "Er ging iets mis. Probeer het opnieuw.",
+    "info": {
+      "title": "Contactgegevens",
+      "address": "Nabij Revel, Haute-Garonne",
+      "region": "Zuid-Frankrijk",
+      "email": "info@maisonamie.fr",
+      "phone": "+33 (0)5 XX XX XX XX"
+    }
+  },
+  "admin": {
+    "title": "Beheer — Maison Amie",
+    "login": {
+      "title": "Beheer inloggen",
+      "password": "Wachtwoord",
+      "submit": "Inloggen",
+      "error": "Onjuist wachtwoord"
+    },
+    "tabs": {
+      "bookings": "Boekingen",
+      "availability": "Beschikbaarheid",
+      "activities": "Activiteiten",
+      "ical": "iCal sync"
+    },
+    "bookings": {
+      "title": "Boekingen",
+      "noBookings": "Geen boekingen gevonden",
+      "guest": "Gast",
+      "room": "Suite",
+      "dates": "Datums",
+      "status": "Status",
+      "actions": "Acties",
+      "statusOptions": {
+        "pending": "In afwachting",
+        "confirmed": "Bevestigd",
+        "cancelled": "Geannuleerd"
+      },
+      "confirm": "Bevestigen",
+      "cancel": "Annuleren"
+    },
+    "availability": {
+      "title": "Beschikbaarheid beheren",
+      "selectRoom": "Selecteer een suite",
+      "blockDate": "Datum blokkeren",
+      "unblockDate": "Datum vrijgeven",
+      "blockedDates": "Geblokkeerde datums",
+      "noBlocked": "Geen geblokkeerde datums",
+      "reason": "Reden (optioneel)",
+      "save": "Opslaan"
+    },
+    "ical": {
+      "title": "iCal synchronisatie",
+      "description": "Voeg een iCal-link toe van Booking.com of Airbnb om automatisch beschikbaarheid bij te werken.",
+      "selectRoom": "Selecteer een suite",
+      "url": "iCal URL",
+      "urlPlaceholder": "https://admin.booking.com/...ical...",
+      "save": "URL opslaan",
+      "sync": "Nu synchroniseren",
+      "syncing": "Synchroniseren...",
+      "lastSync": "Laatste sync",
+      "syncSuccess": "Synchronisatie geslaagd",
+      "syncError": "Synchronisatie mislukt"
+    },
+    "slots": {
+      "title": "Activiteitsslots beheren",
+      "addSlot": "Slot toevoegen",
+      "date": "Datum",
+      "time": "Tijd",
+      "max": "Max. deelnemers",
+      "booked": "Geboekt",
+      "noSlots": "Geen slots aangemaakt"
+    },
+    "logout": "Uitloggen"
+  },
+  "common": {
+    "bookNow": "Boek nu",
+    "learnMore": "Meer info",
+    "close": "Sluiten",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "loading": "Laden...",
+    "from": "Vanaf",
+    "per": "per",
+    "night": "nacht",
+    "person": "persoon",
+    "back": "Terug",
+    "delete": "Verwijderen",
+    "add": "Toevoegen"
+  },
+  "footer": {
+    "description": "Een prachtig landhuis nabij Revel in Zuid-Frankrijk. Zes unieke suites, een weelderige tuin en onvergetelijke ervaringen.",
+    "links": "Snelle links",
+    "contact": "Contact",
+    "rights": "Alle rechten voorbehouden"
+  }
+}

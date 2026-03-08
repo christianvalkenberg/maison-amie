@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "accommodation": "Suites",
+    "activities": "Activités",
+    "book": "Réserver",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Maison Amie",
+      "subtitle": "Votre maison au cœur du Languedoc",
+      "tagline": "Près de Revel · Sud de la France",
+      "cta": "Découvrez votre séjour"
+    },
+    "welcome": {
+      "title": "Un endroit à aimer",
+      "text": "Maison Amie est une magnifique demeure près du pittoresque village de Revel dans le sud de la France. Profitez de six suites uniques, d'un jardin luxuriant et d'expériences inoubliables au cœur du Languedoc.",
+      "cta": "Voir nos suites"
+    },
+    "rooms": {
+      "title": "Nos suites",
+      "subtitle": "Six hébergements uniques, chacun avec son propre caractère",
+      "cta": "Voir toutes les suites"
+    },
+    "activities": {
+      "title": "Vivez plus",
+      "subtitle": "Du pain fait maison au kayak — remplissez vos journées de souvenirs",
+      "cta": "Découvrir les activités"
+    },
+    "location": {
+      "title": "Près de Revel",
+      "text": "Profitez de la tranquillité de la campagne, à deux pas du charmant village de marché de Revel et du Lac de Saint-Ferréol. Base idéale pour explorer le Languedoc, la Montagne Noire et Carcassonne.",
+      "distance1": "5 min de Revel",
+      "distance2": "10 min du Lac Saint-Ferréol",
+      "distance3": "50 min de Carcassonne"
+    },
+    "cta": {
+      "title": "Prêt pour un séjour inoubliable ?",
+      "subtitle": "Réservez votre suite et vivez la magie du sud de la France",
+      "button": "Vérifier les disponibilités"
+    }
+  },
+  "accommodation": {
+    "title": "Nos suites",
+    "subtitle": "Six espaces uniques, chacun aménagé avec soin et attention aux détails",
+    "guests": "personnes",
+    "perNight": "par nuit",
+    "amenities": "Équipements",
+    "book": "Réserver cette suite",
+    "from": "À partir de"
+  },
+  "activities": {
+    "title": "Activités",
+    "subtitle": "Remplissez vos journées d'expériences authentiques autour de Maison Amie",
+    "book": "Réserver une activité",
+    "perPerson": "par personne",
+    "duration": "Durée",
+    "minutes": "min",
+    "participants": "Participants max.",
+    "selectDate": "Choisir une date",
+    "selectTime": "Choisir un créneau",
+    "noSlots": "Aucun créneau disponible pour cette date",
+    "category": {
+      "workshop": "Atelier",
+      "rental": "Location",
+      "outdoor": "Aventure"
+    },
+    "items": {
+      "garden": {
+        "name": "Atelier potager",
+        "description": "Apprenez tout sur la culture des légumes et des herbes aromatiques dans notre magnifique potager. Pour débutants et confirmés.",
+        "category": "workshop"
+      },
+      "bike": {
+        "name": "Location de vélos",
+        "description": "Explorez la région à votre rythme. Nous proposons des vélos électriques et classiques pour des balades dans le Languedoc.",
+        "category": "rental"
+      },
+      "kayak": {
+        "name": "Kayak",
+        "description": "Une journée inoubliable sur l'eau au Lac de Saint-Ferréol ou sur la rivière. Guide inclus, aucune expérience requise.",
+        "category": "outdoor"
+      },
+      "bread": {
+        "name": "Boulangerie maison",
+        "description": "Faites votre propre pain dans notre four traditionnel. Du pétrissage de la pâte jusqu'à un pain croustillant sorti du four.",
+        "category": "workshop"
+      },
+      "pizza": {
+        "name": "Pizza au feu de bois",
+        "description": "Faites votre pizza dans notre four à bois en pierre. Créez votre pizza de A à Z et dégustez-la ensemble à table.",
+        "category": "workshop"
+      }
+    }
+  },
+  "booking": {
+    "title": "Réserver",
+    "subtitle": "Choisissez votre suite et vos dates",
+    "selectRoom": "Choisir une suite",
+    "allRooms": "Toutes les suites",
+    "selectDates": "Choisissez vos dates",
+    "checkIn": "Arrivée",
+    "checkOut": "Départ",
+    "nights": "nuits",
+    "guests": "Nombre de personnes",
+    "personalDetails": "Vos coordonnées",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "message": "Souhaits particuliers ou questions",
+    "messagePlaceholder": "Avez-vous des souhaits particuliers ou des questions ? Faites-le nous savoir.",
+    "submit": "Envoyer la demande de réservation",
+    "submitting": "Envoi en cours...",
+    "success": "Votre demande a été reçue ! Nous vous contacterons dans les 24 heures pour confirmer votre réservation.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter par téléphone.",
+    "blocked": "Non disponible",
+    "selectRoomFirst": "Sélectionnez d'abord une suite",
+    "totalPrice": "Prix total",
+    "activityTitle": "Réserver une activité",
+    "activitySubtitle": "Choisissez une date et un créneau pour votre activité",
+    "participants": "Nombre de participants",
+    "activitySuccess": "Votre réservation d'activité a été reçue ! Nous confirmerons dès que possible."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Des questions ? Nous sommes là pour vous aider.",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone (optionnel)",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "submit": "Envoyer le message",
+    "submitting": "Envoi en cours...",
+    "success": "Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "info": {
+      "title": "Coordonnées",
+      "address": "Près de Revel, Haute-Garonne",
+      "region": "Sud de la France",
+      "email": "info@maisonamie.fr",
+      "phone": "+33 (0)5 XX XX XX XX"
+    }
+  },
+  "admin": {
+    "title": "Administration — Maison Amie",
+    "login": {
+      "title": "Connexion administration",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "error": "Mot de passe incorrect"
+    },
+    "tabs": {
+      "bookings": "Réservations",
+      "availability": "Disponibilités",
+      "activities": "Activités",
+      "ical": "Sync iCal"
+    },
+    "bookings": {
+      "title": "Réservations",
+      "noBookings": "Aucune réservation trouvée",
+      "guest": "Client",
+      "room": "Suite",
+      "dates": "Dates",
+      "status": "Statut",
+      "actions": "Actions",
+      "statusOptions": {
+        "pending": "En attente",
+        "confirmed": "Confirmée",
+        "cancelled": "Annulée"
+      },
+      "confirm": "Confirmer",
+      "cancel": "Annuler"
+    },
+    "availability": {
+      "title": "Gérer les disponibilités",
+      "selectRoom": "Sélectionner une suite",
+      "blockDate": "Bloquer une date",
+      "unblockDate": "Débloquer une date",
+      "blockedDates": "Dates bloquées",
+      "noBlocked": "Aucune date bloquée",
+      "reason": "Raison (optionnel)",
+      "save": "Enregistrer"
+    },
+    "ical": {
+      "title": "Synchronisation iCal",
+      "description": "Ajoutez un lien iCal de Booking.com ou Airbnb pour mettre à jour automatiquement les disponibilités.",
+      "selectRoom": "Sélectionner une suite",
+      "url": "URL iCal",
+      "urlPlaceholder": "https://admin.booking.com/...ical...",
+      "save": "Enregistrer l'URL",
+      "sync": "Synchroniser maintenant",
+      "syncing": "Synchronisation...",
+      "lastSync": "Dernière sync",
+      "syncSuccess": "Synchronisation réussie",
+      "syncError": "Échec de la synchronisation"
+    },
+    "slots": {
+      "title": "Gérer les créneaux",
+      "addSlot": "Ajouter un créneau",
+      "date": "Date",
+      "time": "Heure",
+      "max": "Max. participants",
+      "booked": "Réservés",
+      "noSlots": "Aucun créneau créé"
+    },
+    "logout": "Se déconnecter"
+  },
+  "common": {
+    "bookNow": "Réserver",
+    "learnMore": "En savoir plus",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "loading": "Chargement...",
+    "from": "À partir de",
+    "per": "par",
+    "night": "nuit",
+    "person": "personne",
+    "back": "Retour",
+    "delete": "Supprimer",
+    "add": "Ajouter"
+  },
+  "footer": {
+    "description": "Une belle demeure près de Revel dans le sud de la France. Six suites uniques, un jardin luxuriant et des expériences inoubliables.",
+    "links": "Liens rapides",
+    "contact": "Contact",
+    "rights": "Tous droits réservés"
+  }
+}

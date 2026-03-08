@@ -1,0 +1,230 @@
+{
+  "nav": {
+    "home": "Home",
+    "accommodation": "Suites",
+    "activities": "Activities",
+    "book": "Book now",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Maison Amie",
+      "subtitle": "Your home in the heart of the Languedoc",
+      "tagline": "Near Revel · South of France",
+      "cta": "Discover your stay"
+    },
+    "welcome": {
+      "title": "A place to love",
+      "text": "Maison Amie is a beautiful country house near the picturesque village of Revel in South France. Enjoy six unique suites, a lush garden and unforgettable experiences in the heart of the Languedoc.",
+      "cta": "See our suites"
+    },
+    "rooms": {
+      "title": "Our suites",
+      "subtitle": "Six unique accommodations, each with its own character",
+      "cta": "View all suites"
+    },
+    "activities": {
+      "title": "Experience more",
+      "subtitle": "From bread baking to kayaking — fill your days with memories",
+      "cta": "Discover activities"
+    },
+    "location": {
+      "title": "Near Revel",
+      "text": "Enjoy the tranquility of the countryside, just a stone's throw from the charming market town of Revel and the Lac de Saint-Ferréol. A perfect base for exploring the Languedoc, the Black Mountains and Carcassonne.",
+      "distance1": "5 min to Revel",
+      "distance2": "10 min to Lac Saint-Ferréol",
+      "distance3": "50 min to Carcassonne"
+    },
+    "cta": {
+      "title": "Ready for an unforgettable stay?",
+      "subtitle": "Book your suite and experience the magic of South France",
+      "button": "Check availability"
+    }
+  },
+  "accommodation": {
+    "title": "Our suites",
+    "subtitle": "Six unique spaces, each furnished with care and attention to detail",
+    "guests": "guests",
+    "perNight": "per night",
+    "amenities": "Amenities",
+    "book": "Reserve this suite",
+    "from": "From"
+  },
+  "activities": {
+    "title": "Activities",
+    "subtitle": "Fill your days with authentic experiences around Maison Amie",
+    "book": "Book activity",
+    "perPerson": "per person",
+    "duration": "Duration",
+    "minutes": "min",
+    "participants": "Max. participants",
+    "selectDate": "Choose a date",
+    "selectTime": "Choose a time slot",
+    "noSlots": "No available time slots for this date",
+    "category": {
+      "workshop": "Workshop",
+      "rental": "Rental",
+      "outdoor": "Adventure"
+    },
+    "items": {
+      "garden": {
+        "name": "Kitchen Garden Workshop",
+        "description": "Learn everything about growing vegetables and herbs in our beautiful kitchen garden. Suitable for beginners and experienced gardeners.",
+        "category": "workshop"
+      },
+      "bike": {
+        "name": "Bike Rental",
+        "description": "Explore the area at your own pace. We offer electric and regular bikes for rides through the Languedoc.",
+        "category": "rental"
+      },
+      "kayak": {
+        "name": "Kayaking",
+        "description": "An unforgettable day on the water at Lac de Saint-Ferréol or on the river. Guide included, no experience required.",
+        "category": "outdoor"
+      },
+      "bread": {
+        "name": "Bread Baking",
+        "description": "Bake your own bread in our traditional oven. From kneading the dough to a crusty loaf fresh from the oven.",
+        "category": "workshop"
+      },
+      "pizza": {
+        "name": "Wood-fired Pizza",
+        "description": "Bake pizza in our wood-fired stone oven. Create your pizza from scratch and enjoy it together at the table.",
+        "category": "workshop"
+      }
+    }
+  },
+  "booking": {
+    "title": "Book your stay",
+    "subtitle": "Choose your suite and preferred dates",
+    "selectRoom": "Choose a suite",
+    "allRooms": "All suites",
+    "selectDates": "Choose your dates",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "nights": "nights",
+    "guests": "Number of guests",
+    "personalDetails": "Your details",
+    "name": "Name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "message": "Special wishes or questions",
+    "messagePlaceholder": "Do you have any special wishes or questions? Let us know.",
+    "submit": "Send reservation request",
+    "submitting": "Sending...",
+    "success": "Your request has been received! We will contact you within 24 hours to confirm your booking.",
+    "error": "Something went wrong. Please try again or contact us by phone.",
+    "blocked": "Not available",
+    "selectRoomFirst": "Please select a suite first",
+    "totalPrice": "Total price",
+    "activityTitle": "Book an activity",
+    "activitySubtitle": "Choose a date and time slot for your activity",
+    "participants": "Number of participants",
+    "activitySuccess": "Your activity booking has been received! We will confirm as soon as possible."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Any questions? We're happy to help.",
+    "name": "Name",
+    "email": "Email address",
+    "phone": "Phone number (optional)",
+    "subject": "Subject",
+    "message": "Your message",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "success": "Thank you for your message! We will get back to you as soon as possible.",
+    "error": "Something went wrong. Please try again.",
+    "info": {
+      "title": "Contact details",
+      "address": "Near Revel, Haute-Garonne",
+      "region": "South of France",
+      "email": "info@maisonamie.fr",
+      "phone": "+33 (0)5 XX XX XX XX"
+    }
+  },
+  "admin": {
+    "title": "Admin — Maison Amie",
+    "login": {
+      "title": "Admin login",
+      "password": "Password",
+      "submit": "Log in",
+      "error": "Incorrect password"
+    },
+    "tabs": {
+      "bookings": "Bookings",
+      "availability": "Availability",
+      "activities": "Activities",
+      "ical": "iCal sync"
+    },
+    "bookings": {
+      "title": "Bookings",
+      "noBookings": "No bookings found",
+      "guest": "Guest",
+      "room": "Suite",
+      "dates": "Dates",
+      "status": "Status",
+      "actions": "Actions",
+      "statusOptions": {
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "cancelled": "Cancelled"
+      },
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "availability": {
+      "title": "Manage availability",
+      "selectRoom": "Select a suite",
+      "blockDate": "Block date",
+      "unblockDate": "Unblock date",
+      "blockedDates": "Blocked dates",
+      "noBlocked": "No blocked dates",
+      "reason": "Reason (optional)",
+      "save": "Save"
+    },
+    "ical": {
+      "title": "iCal synchronization",
+      "description": "Add an iCal link from Booking.com or Airbnb to automatically update availability.",
+      "selectRoom": "Select a suite",
+      "url": "iCal URL",
+      "urlPlaceholder": "https://admin.booking.com/...ical...",
+      "save": "Save URL",
+      "sync": "Sync now",
+      "syncing": "Syncing...",
+      "lastSync": "Last sync",
+      "syncSuccess": "Sync successful",
+      "syncError": "Sync failed"
+    },
+    "slots": {
+      "title": "Manage activity slots",
+      "addSlot": "Add slot",
+      "date": "Date",
+      "time": "Time",
+      "max": "Max. participants",
+      "booked": "Booked",
+      "noSlots": "No slots created yet"
+    },
+    "logout": "Log out"
+  },
+  "common": {
+    "bookNow": "Book now",
+    "learnMore": "Learn more",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "from": "From",
+    "per": "per",
+    "night": "night",
+    "person": "person",
+    "back": "Back",
+    "delete": "Delete",
+    "add": "Add"
+  },
+  "footer": {
+    "description": "A beautiful country house near Revel in South France. Six unique suites, a lush garden and unforgettable experiences.",
+    "links": "Quick links",
+    "contact": "Contact",
+    "rights": "All rights reserved"
+  }
+}

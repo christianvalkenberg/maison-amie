@@ -1,0 +1,22 @@
+# Afhankelijkheden
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Omgevingsvariabelen met wachtwoorden en sleutels — NOOIT committen!
+.env.local
+.env.*.local
+.env
+
+# Uitzonderingen: het voorbeeld-bestand mag wel mee (zonder echte waarden)
+!.env.local.example
+
+# OS bestanden
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

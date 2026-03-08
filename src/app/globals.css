@@ -1,0 +1,53 @@
+/* react-day-picker — moet VOOR de tailwind directives staan */
+@import 'react-day-picker/dist/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-dark font-body;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-terracotta-600 hover:bg-terracotta-700 text-white px-6 py-3 rounded-none font-body font-semibold tracking-wide transition-colors duration-200 cursor-pointer;
+  }
+
+  .btn-secondary {
+    @apply inline-block border-2 border-terracotta-600 text-terracotta-600 hover:bg-terracotta-600 hover:text-white px-6 py-3 rounded-none font-body font-semibold tracking-wide transition-colors duration-200 cursor-pointer;
+  }
+
+  .section-title {
+    @apply font-heading text-3xl md:text-4xl text-dark mb-4;
+  }
+
+  .section-subtitle {
+    @apply font-body text-dark/70 text-lg mb-8 max-w-2xl;
+  }
+
+  .container-main {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* react-day-picker kleurenoverschrijving */
+.rdp-day_selected, .rdp-day_selected:hover {
+  background-color: #C1694F !important;
+  color: white !important;
+}
+
+.rdp-day_range_middle {
+  background-color: #F8D0C8 !important;
+  color: #2C2417 !important;
+}
+
+.rdp-button:hover:not([disabled]) {
+  background-color: #FAF1D3 !important;
+}
