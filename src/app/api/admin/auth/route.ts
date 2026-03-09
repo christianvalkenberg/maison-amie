@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { rateLimit, getIp } from '@/lib/ratelimit';
+import { adminLoginSchema } from '@/lib/validation';
 
 // GET /api/admin/auth — controleer of de gebruiker ingelogd is
 export async function GET(req: NextRequest) {
@@ -12,7 +14,18 @@ export async function GET(req: NextRequest) {
 // POST /api/admin/auth — inloggen met wachtwoord
 export async function POST(req: NextRequest) {
   try {
-    const { password } = await req.json();
+    // Max 5 inlogpogingen per 15 minuten per IP
+    const ip = getIp(req);
+    if (!rateLimit(`admin-login:${ip}`, 5, 15 * 60 * 1000)) {
+      return NextResponse.json({ error: 'Te veel pogingen. Probeer het later opnieuw.' }, { status: 429 });
+    }
+
+    const body = await req.json();
+    const result = adminLoginSchema.safeParse(body);
+    if (!result.success) {
+      return NextResponse.json({ error: 'Ongeldig verzoek' }, { status: 400 });
+    }
+    const { password } = result.data;
 
     if (password !== process.env.ADMIN_PASSWORD) {
       return NextResponse.json({ error: 'Onjuist wachtwoord' }, { status: 401 });

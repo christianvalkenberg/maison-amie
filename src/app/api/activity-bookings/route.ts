@@ -1,14 +1,22 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createAdminClient } from '@/lib/supabase';
+import { rateLimit, getIp } from '@/lib/ratelimit';
+import { activityBookingSchema } from '@/lib/validation';
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
-    const { slotId, name, email, phone, participants } = body;
-
-    if (!slotId || !name || !email) {
-      return NextResponse.json({ error: 'Verplichte velden ontbreken' }, { status: 400 });
+    // Max 10 boekingen per uur per IP
+    const ip = getIp(req);
+    if (!rateLimit(`activity-bookings:${ip}`, 10, 60 * 60 * 1000)) {
+      return NextResponse.json({ error: 'Te veel verzoeken. Probeer het later opnieuw.' }, { status: 429 });
     }
+
+    const body = await req.json();
+    const result = activityBookingSchema.safeParse(body);
+    if (!result.success) {
+      return NextResponse.json({ error: result.error.issues[0].message }, { status: 400 });
+    }
+    const { slotId, name, email, phone, participants } = result.data;
 
     const supabase = createAdminClient();
 
@@ -23,7 +31,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Slot niet gevonden' }, { status: 404 });
     }
 
-    const numParticipants = Number(participants) || 1;
+    const numParticipants = participants ?? 1;
     if (slot.booked_count + numParticipants > slot.max_participants) {
       return NextResponse.json({ error: 'Niet genoeg plaatsen beschikbaar' }, { status: 409 });
     }

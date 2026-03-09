@@ -1,16 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createAdminClient } from '@/lib/supabase';
 import { sendBookingConfirmationToGuest, sendBookingNotificationToHost } from '@/lib/email';
+import { rateLimit, getIp } from '@/lib/ratelimit';
+import { bookingSchema } from '@/lib/validation';
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
-    const { roomId, checkIn, checkOut, name, email, phone, guests, message } = body;
-
-    // Basisvalidatie
-    if (!roomId || !checkIn || !checkOut || !name || !email) {
-      return NextResponse.json({ error: 'Verplichte velden ontbreken' }, { status: 400 });
+    // Max 10 boekingen per uur per IP
+    const ip = getIp(req);
+    if (!rateLimit(`bookings:${ip}`, 10, 60 * 60 * 1000)) {
+      return NextResponse.json({ error: 'Te veel verzoeken. Probeer het later opnieuw.' }, { status: 429 });
     }
+
+    const body = await req.json();
+    const result = bookingSchema.safeParse(body);
+    if (!result.success) {
+      return NextResponse.json({ error: result.error.issues[0].message }, { status: 400 });
+    }
+    const { roomId, checkIn, checkOut, name, email, phone, guests, message } = result.data;
 
     const supabase = createAdminClient();
 
