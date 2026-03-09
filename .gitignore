@@ -20,3 +20,10 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Claude Code bestanden
+SKILL.md
+brainstorm.md
+debug-root-cause.md
+explain-beginner.md
+security-review.md
