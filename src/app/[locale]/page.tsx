@@ -9,7 +9,7 @@ import RoomCard from '@/components/RoomCard';
 // Echte foto's van het pand
 const PHOTOS = {
   hero:     'https://lb-eu.green-acres.com/3253676/Alr7baxu7duusqks/Photos/Alr7baxu7duusqks_1.jpg',
-  welcome:  'https://lb-eu.green-acres.com/3253676/Alr7baxu7duusqks/Photos/Alr7baxu7duusqks_3.jpg',
+  welcome:  '/hond.jpg',
   location: 'https://lb-eu.green-acres.com/3253676/Alr7baxu7duusqks/Photos/Alr7baxu7duusqks_10.jpg',
 };
 
